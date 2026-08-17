@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 from typing import Optional, List
 from sqlalchemy import String, Text, Numeric, Integer, Boolean, ForeignKey, DateTime
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from app.db.base import Base
+from app.db.base_class import Base
 
 
 class Category(Base):
